@@ -58,9 +58,3 @@ gcc main.c -o rpg -lm
 
 **Referência de Arquivo:**
 - O código principal e a lógica estão em `main.c` (ver funções: `simular_gameplay`, `forward`, `treinar`, `inicializar_rnn`).
-
-Se desejar, eu posso:
-- Gerar um dataset sintético maior e adaptar `main.c` para carregar amostras a partir de um arquivo CSV.
-- Reescrever o modelo em Python (PyTorch) para facilitar experimentação e avaliação.
-
-Arquivo criado: `Read.md`.
